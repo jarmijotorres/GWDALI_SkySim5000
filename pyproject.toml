@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skysim-gw"
+version = "0.1.0"
+description = "SkySim5000 host, GW detection, and localisation pipeline"
+requires-python = ">=3.10"
+# Scientific dependencies are supplied by the validated NERSC environment.
+# See docs/PIPELINE.md before installing on another machine.
+
+[project.scripts]
+skysim-gw = "skysim_gw.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["skysim_gw*"]

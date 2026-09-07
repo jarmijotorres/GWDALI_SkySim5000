@@ -1,0 +1,20 @@
+{
+  "merger_rate_density_models": "skysim_gw.rates",
+  "gwdali_load_sources": "skysim_gw.catalogue",
+  "gwdali_lvk_network": "skysim_gw.detectors",
+  "sampling_GW_sirens_properties": "skysim_gw.population",
+  "calculate_merger_rate_density_targets": "skysim_gw.stages.rate_targets",
+  "mpi_assign_gw_hosts": "skysim_gw.stages.assign_hosts",
+  "compute_gwdali_snr_catalogue": "skysim_gw.stages.snr",
+  "make_detected_indices": "skysim_gw.stages.detect",
+  "compute_gwdali_localization_catalogue": "skysim_gw.stages.localize",
+  "gwdali_doublet_parallel": "skysim_gw.stages.doublet_parallel",
+  "gwdali_doublet_serial_adapter": "skysim_gw.doublet_adapter",
+  "make_gw_healpix_probability_maps": "skysim_gw.stages.fisher_maps",
+  "make_gw_doublet_healpix_maps": "skysim_gw.stages.doublet_maps",
+  "compare_fisher_localization": "skysim_gw.diagnostics.compare",
+  "diagnose_gwdal_fisher_catalogue": "skysim_gw.diagnostics.fisher",
+  "diagnose_gwdali_localisation_issue": "skysim_gw.diagnostics.localisation",
+  "test_gwdali_localization_one_source": "skysim_gw.diagnostics.one_localisation",
+  "test_gwdali_snr_one_source": "skysim_gw.diagnostics.one_snr"
+}

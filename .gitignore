@@ -1,0 +1,29 @@
+# Python caches and build outputs
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Local environments and editor state
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+.obsidian/
+.ipynb_checkpoints/
+
+# Scientific input data and generated catalogue/map products
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.fits
+*.fits.gz
+
+# Local run output
+*.log
+slurm-*.out
